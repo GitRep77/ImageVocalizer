@@ -8,10 +8,8 @@ namespace ImageVocalizer
     {
         static void Main(string[] args)
         {
-            string imagePath = Path.Combine(
-                AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "Images", "que-es-lorem-ipsum.jpg"
-                );
-
+            string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "Images", "que-es-lorem-ipsum.jpg");
+            
             try
             {
                 // Initialize Tesseract engine
